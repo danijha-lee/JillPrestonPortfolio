@@ -1,0 +1,49 @@
+ /* main>.container {
+     padding: 60px 15px 0;
+     margin-bottom: 5rem;
+ } */
+
+ .sticky-nav {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+ }
+
+ body {
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .title {
+
+     font-family: 'Vidaloka', serif;
+ }
+
+ .header{
+    
+     background-position: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-color: #ee9ca7;
+     /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #ffdde1, #ee9ca7);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+ }
+
+@media only screen and (min-width: 992px) {
+    .header{
+        background-image: url("/img/JillPrestonLarge.png");
+        min-height: 400px;
+    }
+    
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .header {
+        background-image: url("/img/JillPrestonSmall.png");
+    }
+}
